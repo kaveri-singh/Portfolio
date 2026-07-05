@@ -12,7 +12,7 @@ export const about = {
   location: "Ghaziabad, Uttar Pradesh",
   status: "Final-year student, graduating 2026",
   bio: [
-    "I'm a final-year Computer Science student specialising in AI & Machine Learning at ABES Engineering College, but the projects I keep coming back to are backend ones — services with real users, real auth, and real data to protect.",
+    "I'm a recent Computer Science graduate specialising in AI & Machine Learning at ABES Engineering College, but the projects I keep coming back to are backend ones — services with real users, real auth, and real data to protect.",
     "I like backend work because the constraints are honest: a request either has permission or it doesn't, a field either validates or it doesn't. That clarity is what pulled me toward Spring Boot, layered architecture, and getting authentication right before anything else.",
   ],
   facts: [
