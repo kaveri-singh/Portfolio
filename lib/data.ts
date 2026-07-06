@@ -88,7 +88,8 @@ export const projects: Project[] = [
       "Layered Controller → Service → Client → DTO design with fault-tolerant handling for restricted repos",
     ],
     stack: ["Java", "Spring Boot", "GitHub REST API", "CompletableFuture", "Maven"],
-    href: "https://github.com/kaveri-singh/Github-Repository-Access-Report",
+    github: "https://github.com/kaveri-singh/Github-Repository-Access-Report",
+    live: "https://github-repository-access-report.onrender.com",
   },
   {
     method: "POST",
@@ -103,7 +104,8 @@ export const projects: Project[] = [
       "User and Task entities modeled in MongoDB with full CRUD through Spring Data MongoDB",
     ],
     stack: ["Java", "Spring Boot", "Spring Security", "MongoDB", "Spring Data MongoDB"],
-    href: "https://github.com/kaveri-singh/Task-Management-App",
+    github: "https://github.com/kaveri-singh/Task-Management-App",
+    live: "https://task-management-app-wlmt.onrender.com",
   },
   {
     method: "POST",
@@ -118,7 +120,8 @@ export const projects: Project[] = [
       "Four-layer design — Controller → Service → Repository → Security — keeps business logic and data access cleanly separated",
     ],
     stack: ["Java", "Spring Boot", "Spring Security", "MongoDB", "Maven"],
-    href: "https://github.com/kaveri-singh/Journal-Application/tree/main/JournalApp",
+    github: "https://github.com/kaveri-singh/Journal-Application/tree/main/JournalApp",
+    live: "https://journal-application-6v3f.onrender.com",
   },
 ];
 

@@ -21,7 +21,8 @@ export default function Projects() {
           Endpoints I've shipped
         </h2>
         <p className="mt-3 max-w-xl text-mist">
-          Three backend services, built end to end — data model, auth, and API contract.
+          Three backend services, built end to end — data model, auth, and API
+          contract.
         </p>
 
         <div className="mt-12 flex flex-col gap-5">
@@ -55,7 +56,10 @@ export default function Projects() {
 
               <ul className="mt-4 space-y-1.5">
                 {project.points.map((point) => (
-                  <li key={point} className="flex gap-2 text-sm leading-relaxed text-mist">
+                  <li
+                    key={point}
+                    className="flex gap-2 text-sm leading-relaxed text-mist"
+                  >
                     <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-signal" />
                     {point}
                   </li>
@@ -73,15 +77,27 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                <a
-                  href={project.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-1.5 font-mono text-xs text-signal opacity-80 transition-opacity hover:opacity-100"
-                >
-                  view source
-                  <ExternalLink size={13} />
-                </a>
+                <div className="flex items-center gap-3">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1.5 font-mono text-xs text-signal opacity-80 transition-opacity hover:opacity-100"
+                  >
+                    view source
+                    <ExternalLink size={13} />
+                  </a>
+
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1.5 font-mono text-xs text-signal opacity-80 transition-opacity hover:opacity-100"
+                  >
+                    live
+                    <ExternalLink size={13} />
+                  </a>
+                </div>
               </div>
             </motion.article>
           ))}
