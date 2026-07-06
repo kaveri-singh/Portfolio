@@ -71,7 +71,8 @@ export type Project = {
   description: string;
   points: string[];
   stack: string[];
-  href: string;
+  github: string;
+  live: string;
 };
 
 export const projects: Project[] = [
