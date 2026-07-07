@@ -58,7 +58,7 @@ export const skillGroups = [
   {
     label: "tooling",
     layer: "05",
-    items: ["Git", "GitHub", "Postman", "IntelliJ IDEA", "VS Code"],
+    items: ["Docker", "Git", "GitHub", "Postman", "IntelliJ IDEA", "VS Code"],
   },
 ];
 
